@@ -1,6 +1,6 @@
 Name:           perl-HTTP-Date
 Version:        6.02
-Release:        7.1%{?dist}
+Release:        8%{?dist}
 Summary:        Date conversion routines
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -48,6 +48,9 @@ make test
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 6.02-8
+- Mass rebuild 2013-12-27
+
 * Thu Aug 01 2013 Petr Šabata <contyk@redhat.com> - 6.02-7.1
 - Don't BR Time::Zone
 
